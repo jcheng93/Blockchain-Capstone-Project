@@ -19,10 +19,32 @@ TxCnt - The sum count of transactions that day.
 TxTfrValAdjNtv - Xfer'd Val, Adj (native units)
     Definition: The sum of native units transferred that interval removing noise and certain artifacts.  Also known as Adjusted Transfer Value (native units).
 
-
-Eth Specific Metrics:
+Eth Specific Metrics: Staking metrics are unavailable at the moment
 
 Btc Specific Metrics
+DiffLast - Difficulty
+    Definition: The difficulty of the last block in the considered time period.
+HashRate - Mean Hash Rate 1D
+    Definition: The mean rate at which miners are solving hashes that day. Hash rate is the speed at which computations are being completed across all miners in the network. The unit of measurement varies depending on the protocol.
+SplyMiner1HopAllNtv - Supply One Hop from Miners (native units)
+    Definition: Supply 0 hop from miners usually indicate mining pools. 1 Hop would indicate actual miner holdings.
+
 
 Macro Metrics:
+Real GDP YoY: Percent Change from Quarter One Year Ago, Seasonally Adjusted. Quarterly Frequency
+Sticky Price Consumer Price Index less Food and Energy: Percent Change from Year Ago, Seasonally Adjusted, Monthly Frequency
+Real PCE:  Real Personal Consumption Expenditures, Seasonally Adjusted, Monthly Frequency
+Indexes of Aggregate Weekly Hours of Production and Nonsupervisory Employees, Total Private: 
+Industrial Production: Total Index (INDPRO)	
+
+
+Yfinance time series:
+SPY - S&P500
+QQQ - Nasdaq100
+GLD - Gold ETF
+UST10Y - 10Y US Govt
+UST2Y - 2Y US Govt
+DXY - US Dollar Index
+USO - Oil ETF
+CRB Index - Commodities Index
 
