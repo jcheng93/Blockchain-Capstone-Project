@@ -3,9 +3,26 @@ AdrActCnt - Active Addresses
     Definition: The sum count of unique addresses that were active in the network (either as a destination or source of a ledger change) that day. All parties in a ledger change action (source and destination) are counted. Individual addresses are not double-counted if previously active
 AdrBalNtv0.1Cnt - Addr Cnt of Bal ≥ 0.1 (native units)        
     Definition: The sum count of unique addresses holding at least 0.1 native units as of the end of that day. Only native units are considered (e.g., an address with less than 0.1 ETH but with more than 0.1 in ERC-20 tokens would not be considered).
+CapMVRVCur - MVRV (Market Cap / Realized Market Cap)
+    Definition: The ratio of the sum USD value of the current supply to the sum "realized" USD value of the current supply.
+FeeMedNtv - Median Tx Fee (native units)
+    Definition: The median fee per transaction in native units PER DAY.
+FeeTotNtv - Total Fees (native units)
+    Definition: The sum of all fees paid to miners, transaction validators, stakers and/or block producers PER DAY. In certain cryptonetworks, fees might be burned (destroyed), but they are still accounted for in this metric.
+FlowInExNtv - Exchange Deposits (native units)
+    Definition: The sum number of native units sent to exchanges PER DAY, excluding exchange to exchange activity.
+FlowOutExNtv - Exchange Withdrawals (native units)
+    Definition: The sum in native units withdrawn from exchanges PER DAY, excluding exchange to exchange activity.
+SplyFF - Free Float Supply (native units)
+    Definition: The sum of all native units ever created and visible on the ledger excluding native units held closely by company insiders, controlling investors and long term strategic holders as of that day.
+TxCnt - The sum count of transactions that day.
+TxTfrValAdjNtv - Xfer'd Val, Adj (native units)
+    Definition: The sum of native units transferred that interval removing noise and certain artifacts.  Also known as Adjusted Transfer Value (native units).
 
 
 Eth Specific Metrics:
 
 Btc Specific Metrics
+
+Macro Metrics:
 
