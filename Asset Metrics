@@ -20,6 +20,9 @@ TxTfrValAdjNtv - Xfer'd Val, Adj (native units)
     Definition: The sum of native units transferred that interval removing noise and certain artifacts.  Also known as Adjusted Transfer Value (native units).
 
 Eth Specific Metrics: Staking metrics are unavailable at the moment
+GasUsedTx - Tx Gas Used
+    Definition: The sum gas used (i.e., paid) across all transactions that day.
+
 
 Btc Specific Metrics
 DiffLast - Difficulty
