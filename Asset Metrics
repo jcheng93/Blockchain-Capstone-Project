@@ -23,7 +23,6 @@ Eth Specific Metrics: Staking metrics are unavailable at the moment
 GasUsedTx - Tx Gas Used
     Definition: The sum gas used (i.e., paid) across all transactions that day.
 
-
 Btc Specific Metrics
 DiffLast - Difficulty
     Definition: The difficulty of the last block in the considered time period.
