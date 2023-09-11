@@ -41,12 +41,12 @@ Industrial Production: Total Index (INDPRO)
 
 
 Yfinance time series:
-SPY - S&P500
-QQQ - Nasdaq100
+^SPX - S&P500
+^IXIC - Nasdaq Composite
 GLD - Gold ETF
-UST10Y - 10Y US Govt
-UST2Y - 2Y US Govt
-DXY - US Dollar Index
+IEF - 7Y - 10y US Govt
+SHY - 2Y US Govt
+UUP - US Dollar Index
 USO - Oil ETF
 CRB Index - Commodities Index
 
