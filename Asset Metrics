@@ -42,7 +42,7 @@ DGS2 : Market Yield on U.S. Treasury Securities at 2-Year Constant Maturity, Quo
 DGS10 : Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity, Quoted on an Investment Basis (Daily)
 M2SL : M2 (Monthly)
 M2V : Velocity of M2 Money (Quarterly) Calculated as the ratio of quarterly nominal GDP to the quarterly average of M2 money stock. The velocity of money is the frequency at which one unit of currency is used to purchase domestically- produced goods and services within a given time period. In other words, it is the number of times one dollar is spent to buy goods and services per unit of time. If the velocity of money is increasing, then more transactions are occurring between individuals in an economy.
-
+UNRATE: Unemployment Rate
 
 Yfinance time series:
 ^SPX - S&P500
